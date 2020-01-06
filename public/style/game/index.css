@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+}
+.show-wrap {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.show-wrap > div {
+  flex: 1;
+  text-align: center;
+}
+
+.show-wrap  #computer{
+  transform: scaleX(-1);
+}
+
+.show-wrap img {
+  width: 40px;
+  height: 40px;
+}
+
+#start {
+  margin: 0 auto;
+  width: 100px;
+}
