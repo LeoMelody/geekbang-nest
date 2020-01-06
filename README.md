@@ -1,3 +1,6 @@
+# geekbang-nest
+use typescript &amp; nest.js build node web App
+
 ### 从0开始使用nest构建一个App应用。这里的Demo是极客时间
 
 #### steps

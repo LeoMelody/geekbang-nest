@@ -1,14 +1,15 @@
-import { Controller, Get, Render } from '@nestjs/common';
-import { GameService } from 'src/service/game/game.service';
-import { Sleep } from '../../utils/utils';
 
 /*
  * @Author: leowangheng@tencent.com
  * @Date: 2020-01-05 14:28:42
  * @Last Modified by: leo
- * @Last Modified time: 2020-01-05 16:16:14
+ * @Last Modified time: 2020-01-06 20:28:36
  * 剪刀石头布游戏
  */
+
+import { Controller, Get, Render } from '@nestjs/common';
+import { GameService } from 'src/service/game/game.service';
+import { Sleep } from '../../utils/utils';
 
 @Controller('/game')
 export class GameController {
